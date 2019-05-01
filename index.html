@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>GifTastic</title>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        
+        <!-- jQuery reference -->
+        <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+        <!-- Bootstrap -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+        <!-- CSS Stylesheet -->
+        <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+        <!-- Google Fonts -->
+        <link href="https://fonts.googleapis.com/css?family=Fresca|Merienda:400,700" rel="stylesheet">
+
+    </head>
+
+    <body style="background-image:url(assets/images/pawprints.png)">
+
+        <div class="navbar fixed-top">
+            <p>gifTastic</p>
+        </div>
+
+        <div class="container">
+
+                <!-- Search for gifs -->
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="display">
+                        <p>Search for an animal:</p>
+                    </div>
+                    <form id="search" style="color: rgb(138, 108, 94)">
+                        <input type="text" id="Animal-input">
+                        <input id="addAnimal" type="submit" value="Submit">
+                    </form>
+
+                </div>
+            </div>
+
+                <!-- Buttons created from array -->
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="display">
+                        <p>Buttons:</p>
+                        </div>
+                    <div id="buttons"></div>
+                </div>
+            </div>
+
+                <!-- Gifs that are displayed on click -->
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="display">
+                        <p>GIFs</p>
+                        </div>
+                    <div id="gifs"></div>
+                </div>
+            </div>
+      
+        </div>
+
+        
+        <script type="text/javascript" src="assets/javascript/app.js"></script>
+    </body>
+
+    <footer></footer>
+
+</html>
